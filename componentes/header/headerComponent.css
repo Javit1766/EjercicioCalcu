@@ -1,0 +1,40 @@
+.header {
+    height: 65px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-bottom: 2px solid #6a4c93;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    padding: 0 20px;
+    background: linear-gradient(90deg, #fdf0f0, #fefefe);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12);
+}
+
+.titulo1 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #432371;
+}
+
+.descarga {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.descarga a {
+    text-decoration: none;
+    background: #ff595e;
+    color: white;
+    padding: 8px 18px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.descarga a:hover {
+    background: #d62828;
+}
